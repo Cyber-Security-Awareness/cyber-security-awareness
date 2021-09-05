@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import { getNews } from '../../api/news';
 import { News } from '../../models/\bnews'
 
+// Rebuild comment
+
 
 export default function NewsBrowsingPage() {
     const [news, setNews] = useState<News[]>([])
